@@ -1,1 +1,6 @@
 @import "./global.css";
+@import "./colors.css";
+@import "./componente.css";
+
+/*site*/
+@import "./site/header.css";

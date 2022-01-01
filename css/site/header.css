@@ -1,0 +1,48 @@
+.header-bg {
+  background: var(--cor-0);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+
+.header-nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+
+.header-nav ul a{
+  color: var(--cor-2);
+  text-transform: uppercase;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.6rem;
+  width: 115%;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  display: inline-block;
+  position: relative;
+}
+
+.header nav ul a::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  border-radius: 1px;
+  background: var(--cor-0);
+  position: absolute;
+  bottom: -30px;
+}
+
+.header nav ul a:hover::after {
+  transition: linear 0.2s;
+  width: 100%;
+  background: var(--cor-p1);
+}
