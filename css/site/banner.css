@@ -1,0 +1,51 @@
+.banner-bg {
+  background: url(../../img/complementos/bg.jpg) no-repeat center;
+}
+
+.banner {
+  height: 750px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.banner-titulo {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 0.9;
+  
+}
+
+.banner h1 span {
+  font-size: inherit;
+  color: var(--cor-p1);
+}
+
+.banner span {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Poppins";
+  font-weight: bold;
+  margin: 20px 0 30px;
+}
+
+.btg {
+  justify-self: center;
+  text-transform: uppercase;
+  color: var(--cor-2);
+  font-weight: bold;
+  background: var(--cor-p1);
+  font-size: 0.7rem;
+  border-radius: 20px;
+  padding: 12px 30px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.2px;
+  transition: background-color 0.6s;
+}
+
+.btg:hover {
+  background: var(--cor-1);
+}
+
