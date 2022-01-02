@@ -47,9 +47,22 @@
   grid-column: 1;
   padding: 12px 50px;
   width: max-content;
+  justify-self: flex-start;
 }
 
 .about-us div:nth-child(2) {
+  display: grid;
   justify-self: flex-start;
   align-self: start;
+}
+
+@media (max-width: 800px) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-us div .btg {
+    justify-self: center;
+  }
 }
