@@ -1,0 +1,63 @@
+.servicos-bg {
+  background: var(--cor-0);
+}
+
+.servicos {
+  padding: 35px 20px;
+  color: var(--cor-2);
+}
+
+.servicos-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  margin: 0 0 40px;
+}
+
+.servicos-title h2 {
+  font-size: 1..5rem;
+  letter-spacing: 2px;
+}
+
+.servicos-title span {
+  color: var(--cor-3);
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+}
+
+.services- {
+  display: flex;
+}
+
+.services-- {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  border-left: 3px solid var(--cor-1);
+  padding: 0 30px;
+}
+
+.services- div:last-child {
+  border-right: 3px solid var(--cor-1);
+}
+
+.services-img {
+  margin: 0 0 20px;
+}
+
+.services-- h3 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.services-- p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+  color: var(--cor-3);
+}
