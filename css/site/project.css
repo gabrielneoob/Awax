@@ -3,8 +3,13 @@
   padding: 40px 20px;
 }
 
+.projects-conteudo {
+  display: grid;
+}
+
 .projects-conteudo nav ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   text-transform: uppercase;
   margin: 0 0 30px;
@@ -37,4 +42,54 @@
 .projects-img img {
   height: 100%;
   object-fit: cover;
+}
+
+.test {
+  background: url(../../img/complementos/foto2.jpg) center;
+  min-height: 145.95px;
+  min-width: 233.49px;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.test:first-child {
+  background: url(../../img/complementos/foto1.jpg) ;
+}
+
+.test h4 {
+  font-size: 1.2rem;
+  opacity: 2;
+}
+
+.test p {
+  font-size: 0.8rem;
+  color: #cfcfcf;
+}
+
+.test- {
+  display: none;
+}
+
+.test:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0, 0.2);
+}
+
+.test:hover .test- {
+  display: block;
+  z-index: 5;
+}
+
+.projects-conteudo .btg {
+  max-width: max-content;
+  justify-self: center;
 }
