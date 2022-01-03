@@ -33,6 +33,8 @@
   display: flex;
 }
 
+
+
 .services-- {
   display: grid;
   justify-items: center;
@@ -60,4 +62,24 @@
   font-family: "Roboto", sans-serif;
   font-size: 0.7rem;
   color: var(--cor-3);
+}
+
+@media (max-width: 800px) {
+  .services- {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .services-- {
+    border: none;
+    padding: 0;
+  }
+
+  .services-- p {
+    max-width: 20ch;
+  }
+
+  .services- div:last-child {
+    border-right: none;
+  }
 }
