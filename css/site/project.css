@@ -41,6 +41,7 @@
 
 .projects-img img {
   height: 100%;
+  min-width: 100%;
   object-fit: cover;
 }
 
@@ -92,4 +93,29 @@
 .projects-conteudo .btg {
   max-width: max-content;
   justify-self: center;
+}
+
+@media (max-width: 800px) {
+  .projects-conteudo nav ul{
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .projects-img {
+    grid-template-columns: 1fr;
+  }
+
+  .test {
+    max-width: 360.07px;
+    min-height: 225.05px;
+  }
+
+  .projects-img div:nth-child(odd) {
+    display: none;
+  }
+
+  .test {
+    display: none;
+  }
 }
