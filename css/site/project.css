@@ -1,0 +1,40 @@
+.projects {
+  display: grid;
+  padding: 40px 20px;
+}
+
+.projects-conteudo nav ul {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+
+.projects-conteudo nav ul li a {
+  color: #000;
+  background-color: #ededed;
+  padding: 18px 23px;
+  border: 1px solid #cfcfcf;
+  font-family: "Poppins";
+  letter-spacing: 1.8px;
+  display: inline-block;
+  transition: background 0.6s;
+}
+
+.projects-conteudo nav ul li a:hover {
+  background-color: var(--cor-3);
+  color: var(--cor-2);
+}
+
+.projects-img {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 22px;
+  margin-bottom: 30px;
+}
+
+.projects-img img {
+  height: 100%;
+  object-fit: cover;
+}

@@ -9,6 +9,11 @@
   padding: 20px 20px;
 }
 
+.header img {
+  min-width: 100% !important;
+  min-height: 100%;
+}
+
 
 .header-nav ul {
   display: flex;
