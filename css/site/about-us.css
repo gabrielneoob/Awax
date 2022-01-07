@@ -34,13 +34,15 @@
   grid-column: 2;
   grid-row: 2;
   height: 100%;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.8);
+  border-radius: 0 0 5px 5px;
 }
 
 .us-img img {
   max-width: 100%;
-  border-radius: 30%;
   height: 100%;
   object-fit: cover;
+  border-radius: 0 0 5px 5px;
 }
 
 .about-us .btg {
@@ -64,5 +66,10 @@
 
   .about-us div .btg {
     justify-self: center;
+  }
+
+  .us-img {
+    width: 480px;
+    align-self: center;
   }
 }
