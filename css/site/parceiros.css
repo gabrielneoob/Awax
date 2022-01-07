@@ -14,3 +14,15 @@
   flex: 1;
   align-self: center;
 }
+
+@media (max-width: 600px) {
+  .parceiros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .parceiros div {
+    display: grid;
+    justify-items: center;
+  }
+}
