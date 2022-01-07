@@ -52,3 +52,13 @@
   border-radius: 10px;
   background-color: var(--cor-3);
 }
+
+@media(max-width: 800px) {
+  .co-works {
+    overflow-x: scroll;
+  }
+
+  .co-works > div {
+    padding: 10px;
+  }
+}

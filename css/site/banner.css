@@ -1,5 +1,17 @@
 .banner-bg {
   background: url(../../img/complementos/bg.jpg) no-repeat center;
+  position: relative;
+}
+
+.banner-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 0;
 }
 
 .banner {
@@ -7,6 +19,8 @@
   display: grid;
   justify-content: center;
   align-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .banner-titulo {
@@ -33,7 +47,7 @@
 
 .banner a:hover:first-child {
   transition: color 0.4s;
-  color: var(--cor-1);
+  color: var(--cor-3);
 }
 
 .btg {
