@@ -1,0 +1,65 @@
+.precos-bg {
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+
+.section-price {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.price-card {
+  padding: 20px 70px;
+  display: grid;
+  justify-items: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+}
+
+.price-card h4 {
+  font-size: 0.815rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.price-card > span {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.price-card > span::after {
+  content: "/ MONTH";
+  display: block;
+  font-size: 0.85rem;
+  line-height: 25px;
+  color: var(--cor-1);
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.price-item {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.price-item span {
+  font-size: 0.75rem;
+}
+
+.price-item span::after {
+  content: "--";
+  display: block;
+  text-align: center;
+}
+
+.section-price .btg {
+  background: #000;
+  transition: background 0.4s;
+}
+
+.section-price .btg:hover {
+  background: var(--cor-p1);
+}
