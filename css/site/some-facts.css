@@ -16,7 +16,7 @@
 }
 
 .facts-conteudo > div {
-  max-width: 800px;
+  width: 280px;
 }
 
 .facts-conteudo h3 {
@@ -37,7 +37,6 @@
 
 .facts-conteudo h4 {
   font-size: 1.125rem;
-  max-width: 20ch;
   color: #fff;
   margin-bottom: 10px;
 }
