@@ -1,0 +1,16 @@
+.parceiros-bg {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.parceiros {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  gap: 30px;
+}
+
+.parceiros div {
+  flex: 1;
+  align-self: center;
+}
