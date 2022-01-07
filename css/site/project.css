@@ -12,18 +12,19 @@
   flex-wrap: wrap;
   justify-content: center;
   text-transform: uppercase;
-  margin: 0 0 30px;
+  margin: 0 0 50px;
 }
 
 .projects-conteudo nav ul li a {
   color: #000;
   background-color: #ededed;
-  padding: 18px 23px;
+  padding: 10px 15px;
   border: 1px solid #cfcfcf;
   font-family: "Poppins";
-  letter-spacing: 1.8px;
+  letter-spacing: 1.5px;
   display: inline-block;
   transition: background 0.6s;
+  font-size: 0.8rem;
 }
 
 .projects-conteudo nav ul li a:hover {

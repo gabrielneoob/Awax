@@ -1,0 +1,40 @@
+.premium-bg {
+  padding: 60px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.premium-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+}
+
+.premium-conteudo {
+  display: grid;
+  place-content: start start;
+  gap: 20px;
+}
+
+.premium-conteudo h4 {
+  font-size: 1.067rem;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.premium-conteudo h4::before {
+  content: "";
+  background: url(../../img/icones/check.png) center no-repeat;
+  display: inline-block;
+  width: 22px;
+  height: 10px;
+  position: absolute;
+  left: -27px;
+  top: 6px;
+}
+
+.premium-conteudo p,
+span {
+  font-size: 0.84rem;
+  color: var(--cor-3);
+  margin-bottom: 10px;
+}
