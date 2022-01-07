@@ -1,3 +1,39 @@
 .clientes-felizes-bg {
   background: #F7F7F7;
+  padding: 60px 20px;
+}
+
+.clientes-felizes {
+  display: grid;
+  justify-items: center;
+}
+
+.client-photo img {
+  max-height: 100%;
+  object-fit: fill;
+  margin: 0 0 20px;
+  height: 100px;
+}
+
+.name-client {
+  font-family: "Poppins";
+  line-height: 20px;
+}
+
+.client-role {
+  font-family: "Poppins",sans-serif;
+  margin-bottom: 20px;
+}
+
+.quote {
+  margin: 0 0 20px;
+}
+
+.client-coment {
+  font-size: 0.815rem;
+  text-align: center;
+  line-height: 30px;
+  margin: 10px 30px 0;
+  max-width: 85ch;
+  color: #555;
 }
