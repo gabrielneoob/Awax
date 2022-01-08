@@ -1,0 +1,50 @@
+.contact-us-bg {
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+
+.contact-us {
+  display: grid;
+  justify-items: center;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px 10px;
+}
+
+.contact-form label {
+  display: block;
+  margin: 0 0 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.contact-form div:nth-child(3),
+.contact-form div:nth-child(4) {
+  grid-column: 1 / -1;
+}
+
+input,
+textarea {
+  padding: 8px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  font-family: "Roboto";
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  grid-column: 1 / -1;
+  border: none;
+  cursor: pointer;
+}
