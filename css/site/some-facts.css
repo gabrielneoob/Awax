@@ -45,3 +45,54 @@
   font-size: 0.75rem;
   color: var(--cor-3);
 }
+
+.redes-about-us {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes-about-us span {
+  font-size: 0.82rem;
+  color: var(--cor-3);
+  text-transform: capitalize;
+  margin-right: 15px;
+}
+
+.redes-about-us div:first-child {
+  margin: 0 10px 0 0;
+}
+
+.re {
+  width: 30px;
+  height: 30px;
+  background-color: #ddd;
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+}
+
+.re:not(.re:last-child) {
+  margin-right: 5px;
+}
+
+.redes-about-us div:nth-child(3) {
+  background: #127cb4;
+}
+
+.redes-about-us div:nth-child(5) {
+  background: #336297;
+}
+
+.redes-about-us div:nth-child(7) {
+  background: #34c5f0;
+}
+
+.redes-about-us div:nth-child(9) {
+  background: #e74237;
+}
+
+.redes-about-us div:nth-child(11) {
+  background: #b71c29;
+}
