@@ -51,6 +51,7 @@
   padding: 20px;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .redes-about-us span {
@@ -96,3 +97,4 @@
 .redes-about-us div:nth-child(11) {
   background: #b71c29;
 }
+
