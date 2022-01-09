@@ -1,0 +1,48 @@
+.mapa-bg {
+  background: url(../../img/complementos/mapa.jpg);
+  height: 320px;
+  padding: 30px 20px;
+}
+
+.mapa {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contato-mapa {
+  background: #fff;
+  padding: 20px;
+}
+
+.contato-mapa div {
+  display: grid;
+  gap: 20px;
+}
+
+.contato-mapa div div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.contato-mapa div div p{
+  padding: 0 70px 0 0;
+  color: var(--cor-3);
+  font-size: 0.8rem;
+}
+
+.contato-mapa div div div {
+  height: 30px;
+  width: 30px;
+  background: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.contato-mapa div div div img {
+  width: 15px;
+  height: 15px;
+}
