@@ -1,0 +1,57 @@
+.footer-bg {
+  background: var(--cor-0);
+  padding: 40px 20px;
+}
+
+.footer {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.footer > div {
+  flex: 1;
+}
+
+.footer > div:nth-child(2) {
+  flex: 2;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.footer-redes {
+  flex: 1;
+}
+
+.footer-redes img {
+  height: 100%;
+  object-fit:scale-down;
+}
+
+.footer-text{
+  font-size: 0.825rem;
+  max-width: 50ch;
+  color: var(--cor-3);
+}
+
+.footer-subscribe {
+  background: #999;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px #444;
+}
+
+.footer-subscribe form {
+  display: grid;
+  gap: 20px;
+}
+
+.footer-subscribe label {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
